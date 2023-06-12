@@ -1,0 +1,106 @@
+@media screen and (max-width: 1240px) {
+    .p1_img1{width: 230px; height: 230px;}
+    .p1_img2{width: 300px; height: 180px;}
+    .p1_img3{width: 130px; height: 250px; bottom: -5%;}
+    .p1_img4{width: 200px; height: 200px; bottom: 10%;}
+    .p1_text strong{font-size: 150px;}
+    .page1_wrap .p1_text .p1_bar::after{width: 56%;}
+/*-----------------------------------------------------page1--*/
+    .p2_c1::after{margin: 550px 0 0 65px;}
+    .p2_left{margin-top: 22%;}
+    .p2_ltext{background-size: 200px;}
+    .p2_ltext{margin-left: 5%;}
+    .p2_ltext .bold{font-size: 60px;}
+    .p2_ltext p{margin: 8px 10px 15px 270px; width: 450px;}
+    .p2_ltext span{font-size: 25px;}
+    .p2_ltext .p2_ltextbar{margin-left: 13.5px;}
+
+    .p2_right{margin-top: 22%;}
+    .p2_rwrap h3{font-size: 45px;}
+    .p2_skill{width: 100%; height: 100%; bottom: 0;}
+    .p2_skill li{margin: 150px 20px 0;}
+    .p2_skill li p img{width: 30px; height: 30px; margin-left: 10px;}
+    .p2_skill li p::before{
+        width: 20px; height: 125px;
+        top: -170px; left: 15px;
+        margin: 35px auto 10px;
+    }
+    .p2_skill.active li p::after{
+        width: 20px; height: 125px;
+        bottom: 41px; left: 15px;
+        background: #0053a6b9;
+        animation: pafter1 3s both linear;
+    }
+    @keyframes pafter1{
+        0%{width: 20px; height: 0px;}
+        100%{width: 20px; height: 105px;}
+    }
+    .p2_skill.active li:nth-child(2) p::after{
+        background: #ffb847;
+        animation: pafter2 3s both linear;
+    }
+    @keyframes pafter2{
+        0%{width: 20px; height: 0px;}
+        100%{width: 20px; height: 100px;}
+    }
+    .p2_skill.active li:nth-child(3) p::after{
+        background: #ed1c24;
+        animation: pafter3 3s both linear;
+    }
+    @keyframes pafter3{
+        0%{width: 20px; height: 0px;}
+        100%{width: 20px; height: 95px;}
+    }
+    .p2_skill.active li:nth-child(4) p::after{
+        background: #4dc3c3;
+        animation: pafter4 3s both linear;
+    }
+    @keyframes pafter4{
+        0%{width: 20px; height: 0px;}
+        100%{width: 20px; height: 90px;}
+    }
+    .p2_skill.active li:nth-child(5) p::after{
+        background: #eded48;
+        animation: pafter4 3s both linear;
+    }
+    @keyframes pafter4{
+        0%{width: 20px; height: 0px;}
+        100%{width: 20px; height: 90px;}
+    }
+    .p2_skill.active li:nth-child(6) p::after{
+        background: #5964f6;
+        animation: pafter4 3s both linear;
+    }
+    @keyframes pafter4{
+        0%{width: 20px; height: 0px;}
+        100%{width: 20px; height: 90px;}
+    }
+
+    .c2_img{width: 150px; height: 150px; margin: 10% auto;}
+    .p2_c2 ul li:nth-child(2) .c2_img,
+    .p2_c2 ul li:nth-child(3) .c2_img,
+    .p2_c2 ul li:nth-child(4) .c2_img
+    {margin-left: 28%;}
+
+    .c2_text{line-height: 1.7; font-size: 13.3px; margin-top: -5%;}
+    .c2_text p{font-size: 25px;}
+/*-----------------------------------------------------page2--*/
+
+    .p3_content li{width: 29%; height: 360px; margin: 5px 5px 5px;}
+    
+
+    .p3_text{margin: 15px 0 15px 5px;}
+    .p3_text p{font-size: 16px;}
+    .p3_link{margin: 10px 0px 10px -10px;}
+    .p3_link a{
+        display: flex; justify-content: space-between; align-items: center;
+        margin: 11px 0 0 250px; font-size: 11px;float: right;}
+    .p3_linkL, .p3_linkR{padding: 5px 15px; border-radius: 15px;}
+/*-----------------------------------------------------page3--*/
+
+
+
+
+
+/*-----------------------------------------------------page4--*/
+}

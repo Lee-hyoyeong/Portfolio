@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.scrolldown{
+    position: absolute;
+    bottom: 15%; left: 50%;
+    transform: translateX(-50%);
+    background: #ada1f333; border-radius: 50%;
+    animation: fadeIn 1s 5s both;
+}
+.scrolldown p{box-shadow: 0 0 10px #e4e4e4;}
+.scrolldown p.mouse_outline{
+    width: 30px; height: 48px;
+    border-radius: 12px; border: 2px solid rgb(181, 167, 243);
+}
+.scrolldown p.mouse_wheel{
+    width: 4px; height: 12px;
+    border-radius: 2px; background: rgb(165, 145, 240);
+    position: absolute;
+    top: 8px; left: calc(50% - 2px);
+    animation: slideUp50 1s linear reverse infinite;
+}
+@keyframes slideUp50{
+    0% {transform:translateY(50%);}
+    100% {transform:translateY(0%);}
+}
+@keyframes slideUp20{
+    0% {transform:translateY(20%);}
+    100% {transform:translateY(0%);}
+}
+@keyframes slideRight20{
+    0% {transform:translateX(-20%);}
+    100% {transform:translateY(0%);}
+}
+@keyframes slideUp5{
+    0% {transform:translateY(5%);}
+    100% {transform:translateY(0%);}
+}
+@keyframes slideDown{
+    0% {transform:translateY(-100%);}
+    100% {transform:translateY(0%);}
+}
